@@ -111,6 +111,8 @@ header .search-area ul li{
 }
 #top-area .profile-info .user-img img{
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
 #top-area .profile-info .user-details{
     display: inline-block;
