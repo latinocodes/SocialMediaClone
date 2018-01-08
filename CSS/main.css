@@ -4,6 +4,12 @@
 html{
     font-family: sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
+
+/* ======================HEADER=========================== */
 header { 
     background: #2B5998;
     padding: 15px;
@@ -17,6 +23,13 @@ header a{
 header .fa {
     color: white;
     font-size: 16px;
+}
+header a:hover{
+    background: rgba(255, 255, 255, .3);
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 header .logo-area{
@@ -80,4 +93,56 @@ header .search-area {
 
 header .search-area ul li{
     display: inline-block;
+}
+
+/* =============Top Area========== */
+#top-area {
+    padding: 200px 15px 90px 15px; 
+    background: url(https://d3m7xw68ay40x8.cloudfront.net/assets/2015/11/02221549/blue-ridge.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+#top-area .profile-info .user-img {
+    padding: 10px;
+    display: inline-block;
+    padding-left: 30px;
+}
+#top-area .profile-info .user-img img{
+    border-radius: 50%;
+}
+#top-area .profile-info .user-details{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+#top-area .profile-info .user-details h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 50px;
+}
+#top-area .profile-info .user-details div{
+    margin-top: 15px;
+    font-size: 12px;
+}
+#top-area .profile-info .user-details div a{
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background: rgba(255, 255, 255, .3);
+    text-transform: uppercase;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    transition: background .5s ease-in-out;
+}
+
+#top-area .profile-info .user-details div a:hover{
+    text-decoration: none;
+    background: #2196FB;
+   
 }
