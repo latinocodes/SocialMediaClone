@@ -140,11 +140,81 @@ header .search-area ul li{
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    transition: background .5s ease-in-out;
+    transition: background .3s ease-in-out;
 }
 
 #top-area .profile-info .user-details div a:hover{
     text-decoration: none;
     background: #2196FB;
    
+}
+
+#content-area{
+    background: #FAFAFA;
+    overflow: auto;
+    margin: 8px 3px;
+    padding: 30px 0;
+    border-radius: 3px;
+    -webkit-box-shadow: 6px 6px 7px 0px rgba(138,138,138,0.72);
+    -moz-box-shadow: 6px 6px 7px 0px rgba(138,138,138,0.72);
+    box-shadow: 6px 6px 7px 0px rgba(138,138,138,0.72);   
+}
+
+#content-area .side-column .widget-box{
+    display: block;
+    background: white;
+    overflow: auto;
+    margin: 8px 3px;
+    padding: 15px 0;
+    
+}
+#content-area .side-column .widget-icon{
+    display: inline-block;
+    background: #BFBFBF;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content-area .side-column .widget-icon .fa{
+    max-width: 50%;
+    font-size: 20px;
+
+}
+#content-area .side-column{
+    width: 35%;
+    float: left;
+    margin: 0 2.5%;
+}
+
+#content-area .main-area{
+    width: 55%;
+    float: left;
+    margin: 0 2.5%;
+}
+
+.widget-head{
+    border-bottom: 1px solid rgb(210, 209, 209);
+    margin-bottom: 3px;
+}
+.widget-head-item{
+    display: inline-block;
+    padding: 0 50px 5px 10px;
+
+}
+
+.photos-img{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+    margin: .33%;
+    float: left;
+    background: url(https://d3m7xw68ay40x8.cloudfront.net/assets/2015/11/02221549/blue-ridge.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
