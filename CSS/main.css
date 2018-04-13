@@ -87,19 +87,40 @@ header .icon-links .quick-options{
 }
 header .icon-links .privacy {
     display: inline-block;
-    margin-left: -4px;
-    padding-left: 20px;
+    margin-left: -3px;
+    padding-left: 15px;
 }
 header .search-area {
     display: inline-block;
-    width: 40%;
-    margin-left: -4px;
-    text-align: right;
+    width: 30%;
+}
+header .search-area .search-area-items {
+  border-bottom: 1px solid #ABABAB;
 }
 
 header .search-area ul li{
-    display: inline-block;
+  display: inline-block;
 }
+
+header .search-area ul li a i{
+  width: 5%;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+header .search-area ul li .search-area-x{
+  float: right;
+  padding-left: 10px;
+}
+header .search-area ul li input{
+  width: 300px;
+  border: 0px solid #fff;
+  background-color: #2B5998;
+  outline: none;
+  font-size: 18px;
+}
+
+
 
 /* =============Top Area========== */
 #top-area {
@@ -168,7 +189,7 @@ header .search-area ul li{
     background: white;
     overflow: auto;
     margin: 8px 3px;
-    padding: 15px 0;
+    padding: 8px 0;
     border-radius: 3px;
     -webkit-box-shadow: 6px 6px 7px 0px rgba(138,138,138,0.72);
     -moz-box-shadow: 6px 6px 7px 0px rgba(138,138,138,0.72);
@@ -298,62 +319,65 @@ header .search-area ul li{
   clear: both;
   display: table;
 }
-
 #content-area .main-area .widget-box.post .widget-body .post-img img{
-  padding: 10px 0 10px 0;
+  padding: 10px 0 5px 0;
   width: 100%;
   height: auto;
 }
-
 #content-area .main-area .widget-box.post .widget-body .post-comments::after{
   content: " ";
   clear: both;
   display: table;
 }
-
 #content-area .main-area .widget-box.post .widget-body .post-comments .user-img{
   width: 8%;
   display: inline-block;
   overflow: auto;
   float: left;
 }
-
 #content-area .main-area .widget-box.post .widget-body .post-comments .user-img img{
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
-
 #content-area .main-area .widget-box.post .widget-body .post-comments div .user-comment {
   display: inline-block;
   float: left;
   width: 92%;
 }
-
-#content-area .main-area .widget-box.post .widget-body .post-comments .user-comment p {
+#content-area .main-area .widget-box.post .widget-body .post-comments .user-comment .message {
+  display: inline;
+}
+#content-area .main-area .widget-box.post .widget-body .post-comments .user-comment .message p {
+  margin-top: 3px;
+  display: inline;
   font-weight: 300;
   font-family: serif;
   text-transform: capitalize;
+  float: left;
 }
-
+#content-area .main-area .widget-box.post .widget-body .post-comments .user-comment .message i {
+  display: inline;
+  text-align: right;
+  float: left;
+  padding-left: 8px;
+  font-size: 12px;
+}
 #content-area .main-area .widget-box.post .widget-body .post-comments{
   background-color: #f5f5f5;
   border-radius: 5px;
   padding: 10px 0 0 10px;
   margin-top: 10px;
 }
-
 #content-area .main-area .widget-box.post .widget-body .post-comments .comment-text{
   font-size: 12px;
 }
-
 #content-area .main-area .widget-box.post .widget-body .post-icons{
   font-size: 18px;
 }
 #content-area .main-area .widget-box.post .widget-body .post-icons i{
   padding-left: 8px;
 }
-
 #content-area .main-area .widget-box.post .widget-body .post-icons .post-icon-share{
   text-align: right;
   display: inline-block;
@@ -362,13 +386,53 @@ header .search-area ul li{
 #content-area .main-area .widget-box.post .widget-body .post-icons .post-icon-share span{
   font-size: 12px;
 }
-
 #content-area .main-area .widget-box.post .widget-body .post-form {
-  display: inline-block;
   padding-top: 10px;
 }
-post-icons .post-form .user-img img{
+#content-area .main-area .widget-box.post .widget-body .post-form .user-img {
+  display: inline-block;
+  float: left;
+  padding-left: 12px;
+  width: 8%;
+}
+#content-area .main-area .widget-box.post .widget-body .post-form .user-img img{
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+#content-area .main-area .widget-box.post .widget-body .post-form .post-form-info{
+  display: inline-block;
+  float: left;
+  width: 90%;
+  padding: 10px 2px 0 2px;
+  border-bottom: 1px solid #ABABAB;
+}
+
+#content-area .main-area .widget-box.post .widget-body .post-form .post-form-info input{
+  float: left;
+  border: 0 solid #fff;
+  height: 20px;
+  outline: none;
+  width: 85%;
+  font-size: 14px;
+}
+
+.time{
+  color: #ABABAB;
+  float: right;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+#content-area .main-area .widget-box.post .widget-body .post-form .post-form-info input:hover{
+  float: left;
+  border: 0 solid #fff;
+  height: 20px;
+  font-size: 14px;
+  width: 90%;
+}
+#content-area .main-area .widget-box.post .widget-body .post-form .icons{
+  display: inline-block;
+  float: right;
+  width: 7%;
 }
