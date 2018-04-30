@@ -231,19 +231,6 @@ header .search-area ul li input{
     padding: 0 50px 5px 10px;
 }
 
-.photos-img{
-    display: inline-block;
-    width: 31%;
-    height: 110px;
-    margin: .33%;
-    float: left;
-    background: url(https://d3m7xw68ay40x8.cloudfront.net/assets/2015/11/02221549/blue-ridge.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 #content-area .main-area .sub-menu ul li{
   display: inline-block;
   width: 20%;
@@ -457,6 +444,128 @@ header .search-area ul li input{
   z-index: 100;
   padding: 10px 14px;
 }
+.menu-for-mobile{
+  height: 0;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2B5998;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+/* PHOTOS */
+.photos-img-1{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+    margin: .33%;
+    float: left;
+    background: url(img/andrew-neel-609844-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.photos-img-2{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+    margin: .33%;
+    float: left;
+    background: url(img/nathan-dumlao-609929-unsplash.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.photos-img-3{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+    margin: .33%;
+    float: left;
+    background: url(img/beth-solano-355831-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.photos-img-4{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+    margin: .33%;
+    float: left;
+    background: url(img/niklas-tidbury-317689-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.photos-img-5{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+    margin: .33%;
+    float: left;
+    background: url(img/travis-grossen-553342-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.photos-img-6{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+    margin: .33%;
+    float: left;
+    background: url(img/nathan-dumlao-609929-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.photos-img-7{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+    margin: .33%;
+    float: left;
+    background: url(img/mirza-babar-baig-640530-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.photos-img-8{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+    margin: .33%;
+    float: left;
+    background: url(img/stefano-zocca-562754-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.photos-img-9{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+    margin: .33%;
+    float: left;
+    background: url(https://d3m7xw68ay40x8.cloudfront.net/assets/2015/11/02221549/blue-ridge.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 /*===================================== */
 
@@ -471,6 +580,7 @@ header .search-area ul li input{
       overflow: auto;
   }
 }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 800px) {
@@ -538,9 +648,14 @@ header .search-area ul li input{
     padding: 5px;
     font-size: 12px;
   }
+  #content-area .main-area .post-div{
+    position: absolute;
+    display: block;
+    float: left;
+    left: 0;
+  }
 
   #content-area .main-area .post{
-      position: absolute;
       border-radius: 3px;
       padding: 15px 20px;
       -webkit-box-shadow: 6px 6px 7px 0px rgba(138,138,138,0.72);
@@ -548,13 +663,8 @@ header .search-area ul li input{
       box-shadow: 6px 6px 7px 0px rgba(138,138,138,0.72);
       width: 100%;
   }
-
   #content-area .side-column {
-    display: block;
-    float: right;
-    margin: 0;
-    width: 100%;
-    top: 1000px;
+    display: none;
   }
   #content-area .main-area .widget-box.post .head .user-img-container {
       width: 12%;
@@ -608,6 +718,32 @@ header .search-area ul li input{
       width: 80%;
       border-bottom: 1px solid #ABABAB;
   }
+
+  .menu-for-mobile-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .menu-for-mobile-content a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+  }
+  .menu-for-mobile-content a:hover, .menu-for-mobile a:focus {
+    color: #ABABAB;
+    font-size: 50px;
+  }
+  .menu-for-mobile .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
 }
 
 
@@ -660,7 +796,7 @@ header .search-area ul li input{
   }
 
   #content-area .main-area .widget-box.post .widget-body .post-form .post-form-info {
-      display: inline-block;
+      display: block;
       float: left;
       width: 80%;
       border-bottom: 1px solid #ABABAB;

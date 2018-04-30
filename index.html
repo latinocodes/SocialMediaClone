@@ -17,7 +17,7 @@
             <a href="index.html">Social Club</a>
         </div>
         <div class="menu-bars">
-          <i class="fa fa-bars" aria-hidden="true"></i>
+          <i class="fa fa-bars" style="font-size:30px;cursor:pointer" onclick="openNav()" aria-hidden="true"></i>
         </div>
         <div class="all-menu-items">
           <div class="menu">
@@ -71,15 +71,15 @@
                     </div>
                 </div>
                 <div class="widget-body">
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
+                    <div class="photos-img-1"></div>
+                    <div class="photos-img-2"></div>
+                    <div class="photos-img-3"></div>
+                    <div class="photos-img-4"></div>
+                    <div class="photos-img-5"></div>
+                    <div class="photos-img-6"></div>
+                    <div class="photos-img-7"></div>
+                    <div class="photos-img-8"></div>
+                    <div class="photos-img-9"></div>
                 </div>
             </div>
             <div class="widget-box friends">
@@ -92,9 +92,6 @@
                     </div>
                 </div>
                 <div class="widget-body">
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
                     <div class="photos-img"></div>
                     <div class="photos-img"></div>
                     <div class="photos-img"></div>
@@ -129,6 +126,62 @@
               </li>
             </ul>
           </div>
+          <div class="post-div">
+            <div class="widget-box post">
+              <div class="head">
+                <div class="user-img-container">
+                  <div class="user-img">
+                  </div>
+                </div>
+                <div class="post-info">
+                  <span class="user-info">
+                    <a href="">Justina Barcardi</a> Shared a <a href="#">link</a>.
+                  </span>
+                  <span class="post-date">April 29 at 10:35 AM via
+                    Instagram</span>
+                </div>
+              </div>
+              <div class="widget-body">
+                <div class="post-img">
+                  <img src="img/art.jpeg" alt="">
+                </div>
+                <div class="post-icons">
+                  <a href="#"> <i class="fa fa-share" aria-hidden="true"></i></a>
+                  <a href="#"> <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                  <div class="post-icon-share">
+                    <a href="#"> <i class="fa fa-commenting-o" aria-hidden="true"></i></a>
+                    <span>1</span>
+                  </div>
+                </div>
+                <div class="post-comments">
+                  <div class="user-img">
+                    <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="">
+                  </div>
+                  <div class="user-comment">
+                    <div class="comment-text">
+                      <a href="#">John Smith</a>
+                      <span class="time">11:01 AM</span>
+                    </div>
+                    <div class="message">
+                      <p>This is awesome! love it!</p>
+                      <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-form">
+                  <div class="user-img">
+                    <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="">
+                  </div>
+                  <div class="post-form-info">
+                    <input type="text" name="" value="" placeholder="Write a comment"/>
+                    <div class="icons">
+                      <a href="#"> <i class="fa fa-camera" aria-hidden="true"></i></a>
+                      <a href="#"> <i class="fa fa-smile-o" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           <div class="widget-box post">
             <div class="head">
               <div class="user-img-container">
@@ -137,7 +190,62 @@
               </div>
               <div class="post-info">
                 <span class="user-info">
-                  <a href=""> Chloe Grace Moretz</a> Shared a <a href="#">link</a>.
+                  <a href="">Justina Barcardi</a> Shared a <a href="#">link</a>.
+                </span>
+                <span class="post-date">April 20 at 12:35 AM via
+                  Instagram</span>
+              </div>
+            </div>
+            <div class="widget-body">
+              <div class="post-img">
+                <img src="img/background.jpg" alt="">
+              </div>
+              <div class="post-icons">
+                <a href="#"> <i class="fa fa-share" aria-hidden="true"></i></a>
+                <a href="#"> <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                <div class="post-icon-share">
+                  <a href="#"> <i class="fa fa-commenting-o" aria-hidden="true"></i></a>
+                  <span>1</span>
+                </div>
+              </div>
+              <div class="post-comments">
+                <div class="user-img">
+                  <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="">
+                </div>
+                <div class="user-comment">
+                  <div class="comment-text">
+                    <a href="#">John Smith</a>
+                    <span class="time">11:01 AM</span>
+                  </div>
+                  <div class="message">
+                    <p>This is awesome! love it!</p>
+                    <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="post-form">
+                <div class="user-img">
+                  <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="">
+                </div>
+                <div class="post-form-info">
+                  <input type="text" name="" value="" placeholder="Write a comment"/>
+                  <div class="icons">
+                    <a href="#"> <i class="fa fa-camera" aria-hidden="true"></i></a>
+                    <a href="#"> <i class="fa fa-smile-o" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="widget-box post">
+            <div class="head">
+              <div class="user-img-container">
+                <div class="user-img">
+                </div>
+              </div>
+              <div class="post-info">
+                <span class="user-info">
+                  <a href="">Justina Barcardi</a> Shared a <a href="#">link</a>.
                 </span>
                 <span class="post-date">Feb 19 at 10:35 AM via
                   Instagram</span>
@@ -145,7 +253,7 @@
             </div>
             <div class="widget-body">
               <div class="post-img">
-                <img src="img/art.jpeg" alt="">
+                <img src="img/profile-img.jpg" alt="">
               </div>
               <div class="post-icons">
                 <a href="#"> <i class="fa fa-share" aria-hidden="true"></i></a>
@@ -185,11 +293,28 @@
             </div>
           </div>
         </div>
+        </div>
     </section>
-    <div class="menu-for-mobile">
-
-
+    <div id="myNav" class="menu-for-mobile">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="menu-for-mobile-content">
+        <a href="#">Home</a>
+        <a href="#">Friends</a>
+        <a href="#">Settings</a>
+      </div>
     </div>
+    <script>
+      function openNav() {
+        console.log('hello');
+          document.getElementById("myNav").style.width = "100%";
+          document.getElementById("myNav").style.height = "100%";
+      }
 
+      function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+          document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
 </body>
 </html>
