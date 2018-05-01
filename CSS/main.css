@@ -463,7 +463,7 @@ header .search-area ul li input{
     height: 110px;
     margin: .33%;
     float: left;
-    background: url(../img/andrew-neel-609844-unsplash.jpg) no-repeat center center;
+    /* background: url(../img/andrew-neel-609844-unsplash.jpg) no-repeat center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -487,7 +487,7 @@ header .search-area ul li input{
     height: 110px;
     margin: .33%;
     float: left;
-    background: url(../img/beth-solano-355831-unsplash.jpg) no-repeat center center;
+    /* background: url(../img/beth-solano-355831-unsplash.jpg) no-repeat center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -499,7 +499,7 @@ header .search-area ul li input{
     height: 110px;
     margin: .33%;
     float: left;
-    background: url(../img/niklas-tidbury-317689-unsplash.jpg) no-repeat center center;
+    /* background: url(../img/niklas-tidbury-317689-unsplash.jpg) no-repeat center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -511,7 +511,7 @@ header .search-area ul li input{
     height: 110px;
     margin: .33%;
     float: left;
-    background: url(../img/travis-grossen-553342-unsplash.jpg) no-repeat center center;
+    /* background: url(../img/travis-grossen-553342-unsplash.jpg) no-repeat center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -523,7 +523,7 @@ header .search-area ul li input{
     height: 110px;
     margin: .33%;
     float: left;
-    background: url(../img/nathan-dumlao-609929-unsplash.jpg) no-repeat center center;
+    /* background: url(../img/nathan-dumlao-609929-unsplash.jpg) no-repeat center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -535,7 +535,7 @@ header .search-area ul li input{
     height: 110px;
     margin: .33%;
     float: left;
-    background: url(../img/mirza-babar-baig-640530-unsplash.jpg) no-repeat center center;
+    /* background: url(../img/mirza-babar-baig-640530-unsplash.jpg) no-repeat center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -547,7 +547,7 @@ header .search-area ul li input{
     height: 110px;
     margin: .33%;
     float: left;
-    background: url(../img/stefano-zocca-562754-unsplash.jpg) no-repeat center center;
+    /* background: url(../img/stefano-zocca-562754-unsplash.jpg) no-repeat center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -559,7 +559,7 @@ header .search-area ul li input{
     height: 110px;
     margin: .33%;
     float: left;
-    background: url(https://d3m7xw68ay40x8.cloudfront.net/assets/2015/11/02221549/blue-ridge.jpg) no-repeat center center;
+    /* background: url(https://d3m7xw68ay40x8.cloudfront.net/assets/2015/11/02221549/blue-ridge.jpg) no-repeat center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -640,7 +640,9 @@ header .search-area ul li input{
       -webkit-box-shadow: 6px 6px 7px 0px rgba(138,138,138,0.72);
       -moz-box-shadow: 6px 6px 7px 0px rgba(138,138,138,0.72);
       box-shadow: 6px 6px 7px 0px rgba(138,138,138,0.72);
-      width: 100%;
+      width: 90%;
+      left: 0;
+      margin: 0 auto;
   }
 
   #content-area .main-area .sub-menu ul li span{

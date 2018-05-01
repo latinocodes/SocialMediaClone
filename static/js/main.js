@@ -1,6 +1,5 @@
 (function() {
-  document.querySelector(".photos-img-1").style.background = "url(../../img/andrew-neel-609844-unsplash.jpg) no-repeat center center%";
-
+  // document.querySelector(".photos-img-1").style.background = "url(../../img/andrew-neel-609844-unsplash.jpg) no-repeat center center%";
 
   var open = document.getElementById('openNav');
   var close = document.getElementById('closeNav');
