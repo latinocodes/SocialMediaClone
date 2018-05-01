@@ -8,8 +8,8 @@
     <title>Social Club</title>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="static/css/main.css">
 </head>
 <body>
     <header>
@@ -17,12 +17,12 @@
             <a href="index.html">Social Club</a>
         </div>
         <div class="menu-bars">
-          <i class="fa fa-bars" style="font-size:30px;cursor:pointer" onclick="openNav()" aria-hidden="true"></i>
+          <i class="fa fa-bars" style="font-size:30px;cursor:pointer" id="openNav" aria-hidden="true"></i>
         </div>
         <div class="all-menu-items">
           <div class="menu">
               <ul>
-                  <li><a href="chloe.html">Justina</a></li>
+                  <li><a href="chloe.html">Emma</a></li>
                   <li><a href="home.html">Home</a></li>
               </ul>
           </div>
@@ -51,7 +51,7 @@
                 <img src="https://d3iw72m71ie81c.cloudfront.net/female-88.jpg" alt="">
             </div>
             <div class="user-details">
-                <h3>Justina Barcardi</h3>
+                <h3>Emma Fabela</h3>
                 <div>
                     <a href="update.html">Update info</a>
                     <a href="view.html">View Activity</a>
@@ -92,12 +92,12 @@
                     </div>
                 </div>
                 <div class="widget-body">
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
-                    <div class="photos-img"></div>
+                    <div class="photos-img-1"></div>
+                    <div class="photos-img-2"></div>
+                    <div class="photos-img-3"></div>
+                    <div class="photos-img-4"></div>
+                    <div class="photos-img-5"></div>
+                    <div class="photos-img-6"></div>
                 </div>
             </div>
         </div>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="post-info">
                   <span class="user-info">
-                    <a href="">Justina Barcardi</a> Shared a <a href="#">link</a>.
+                    <a href="">Emma Fabela</a> Shared a <a href="#">link</a>.
                   </span>
                   <span class="post-date">April 29 at 10:35 AM via
                     Instagram</span>
@@ -143,7 +143,7 @@
               </div>
               <div class="widget-body">
                 <div class="post-img">
-                  <img src="img/art.jpeg" alt="">
+                  <img src="static/img/art.jpeg" alt="">
                 </div>
                 <div class="post-icons">
                   <a href="#"> <i class="fa fa-share" aria-hidden="true"></i></a>
@@ -190,7 +190,7 @@
               </div>
               <div class="post-info">
                 <span class="user-info">
-                  <a href="">Justina Barcardi</a> Shared a <a href="#">link</a>.
+                  <a href="">Emma Fabela</a> Shared a <a href="#">link</a>.
                 </span>
                 <span class="post-date">April 20 at 12:35 AM via
                   Instagram</span>
@@ -198,7 +198,7 @@
             </div>
             <div class="widget-body">
               <div class="post-img">
-                <img src="img/background.jpg" alt="">
+                <img src="static/img/background.jpg" alt="">
               </div>
               <div class="post-icons">
                 <a href="#"> <i class="fa fa-share" aria-hidden="true"></i></a>
@@ -245,7 +245,7 @@
               </div>
               <div class="post-info">
                 <span class="user-info">
-                  <a href="">Justina Barcardi</a> Shared a <a href="#">link</a>.
+                  <a href="">Emma Fabela</a> Shared a <a href="#">link</a>.
                 </span>
                 <span class="post-date">Feb 19 at 10:35 AM via
                   Instagram</span>
@@ -253,7 +253,7 @@
             </div>
             <div class="widget-body">
               <div class="post-img">
-                <img src="img/profile-img.jpg" alt="">
+                <img src="static/img/profile-img.jpg" alt="">
               </div>
               <div class="post-icons">
                 <a href="#"> <i class="fa fa-share" aria-hidden="true"></i></a>
@@ -297,24 +297,13 @@
     </section>
     <div id="myNav" class="menu-for-mobile">
       <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
       <div class="menu-for-mobile-content">
         <a href="#">Home</a>
         <a href="#">Friends</a>
         <a href="#">Settings</a>
       </div>
     </div>
-    <script>
-      function openNav() {
-        console.log('hello');
-          document.getElementById("myNav").style.width = "100%";
-          document.getElementById("myNav").style.height = "100%";
-      }
-
-      function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-          document.getElementById("myNav").style.height = "0%";
-      }
-    </script>
+  <script type="text/javascript" src="static/js/main.js"></script>
 </body>
 </html>
